@@ -17,7 +17,7 @@ gcc ImageViewer.c -o ImageViewer $(sdl2-config --cflags --libs)
 cat image.ppm | ./ImageViewer
 ```
 
-![Demo Output](/home/sr/IV/demo_output.png)
+![Demo Output](demo_output.png)
 
 The program expects a PPM image on stdin. It will open a window displaying the image. Close the window to exit the program.
 
