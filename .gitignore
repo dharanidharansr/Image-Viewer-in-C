@@ -1,0 +1,13 @@
+# .gitignore
+# Object files
+*.o
+# Executable files
+ImageViewer
+*.out
+# Build directories
+build/
+# MacOS Finder files
+.DS_Store
+# Editor backup files
+*~
+*.swp
